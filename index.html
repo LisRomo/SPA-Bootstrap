@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>SPA-Jodos</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row bg-verde-claro">
+            <nav class="col m-2">
+                <ul>
+                    <li class="menu d-inline-block menu-cyf mt-3 mx-2">Promociones</li>
+                    <li class="menu d-inline-block menu-cyf mt-3 mx-2">Fotos</li>
+                    <li class="menu d-inline-block menu-cyf mt-3 mx-2">Servicios</li>
+                    <li class="menu d-inline-block menu-cyf mt-3 mx-2">Mapa</li>
+                    <li class="menu d-inline-block menu-cyf mt-3 mx-2">Contacto</li>
+                </ul>
+            </nav>
+            <div class="col text-end">
+                <img src="imgs/user.png" alt="" class="d-inline-block m-3">
+                <p class="d-inline-block">Mi cuenta</p>
+                <p class="d-inline-block">ES</p>
+                <img src="imgs/flag.png" alt="" class="d-inline-block">
+                <img src="imgs/arrow.png" alt="" class="d-inline-block">
+            </div>
+        </div>
+        <div class="row">
+            <div class="container-fluid px-0">
+                <div class="row">
+                    <img src="imgs/main.png" alt="">
+                    <h1 id="titulo-general">SPA - Jodos</h1>
+                </div>
+                <div class="row">
+                    <h2 class="T2-slogan w-auto" id="slogan1">Regálate un momento de paz y</h2>
+                    <h2 class="T2-slogan w-auto" id="slogan2">consiente a tu piel en el mejor lugar</h2>
+                </div>
+            </div>
+            <div class="bg-gris text-center align-items-center">
+                <p class="menu d-inline-block m-4">Reserva tu cita:</p>
+                <input type="text" name="reserva" class="d-inline-block m-4 rounded border-light cod p-3">
+                <p class="menu d-inline-block m-4">Código promocional:</p>
+                <input type="text" name="codigo" placeholder="codigo" id="placeholder"
+                    class="d-inline-block m-4 rounded border-light cod p-3">
+            </div>
+            <div class="row text-center" id="masajes">
+                <div class="container-fluid d-inline-block card-masajes col-12 col-md-4">
+                    <h2 class="T2 row text-center bg-verde-claro text-white d-flex justify-content-center align-items-center p-2 titulo-masaje">Masaje de pies</h2>
+                    <div class="row">
+                        <img src="imgs/pies.png" alt="" class="img-masaje">
+                    </div>
+                    <p class="text-start row p-1 miniatura">Esta es una descripción de la opción en cuestión...</p>
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <h3 class="d-inline-block m-1 text-start">$65</h3>
+                        </div>
+                        <div class="col bg-verde-claro boton-reseva">
+                            <a href="#" class="d-inline-block text-decoration-none menu text-white p-1">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid d-inline-block card-masajes col-12 col'md-4">
+                    <h2 class="T2 row text-center bg-verde-claro text-white d-flex justify-content-center align-items-center p-2 titulo-masaje">Masaje relajante</h2>
+                    <div class="row">
+                        <img src="imgs/relajante.png" alt="" class="img-masaje">
+                    </div>
+                    <p class="text-start row p-1 miniatura">Esta es una descripción de la opción en cuestión...</p>
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <h3 class="d-inline-block m-1 text-start">$60</h3>
+                        </div>
+                        <div class="col bg-verde-claro boton-reseva">
+                            <a href="#" class="d-inline-block text-decoration-none menu text-white p-1">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid d-inline-block card-masajes col-12 col-md'4">
+                    <h2 class="T2 row text-center bg-verde-claro text-white d-flex justify-content-center align-items-center p-2 titulo-masaje">Masaje con bambú</h2>
+                    <div class="row">
+                        <img src="imgs/bambu.png" alt="" class="img-masaje">
+                    </div>
+                    <p class="text-start row p-1 miniatura">Esta es una descripción de la opción en cuestión...</p>
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <h3 class="d-inline-block m-1 text-start">$58</h3>
+                        </div>
+                        <div class="col bg-verde-claro boton-reseva">
+                            <a href="#" class="d-inline-block text-decoration-none menu text-white p-1">Reservar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid bg-gris text-center">
+                <h2 class="m-3">Haste socio y prueba nuestros beneficios</h2>
+                <div class="card-socio d-inline-block col-12 col-md-4 mx-2">
+                    <div class="img-socio text-center px-3 py-5 rounded-circle bd-circle m-5">
+                        <img src="imgs/gold.png" alt="">
+                    </div>
+                    <h1 class="titulo-socio">Gold</h1>
+                    <div class="boton-condiciones bg-verde-claro p-2">
+                        <a href="#" class="text-decoration-none menu text-white p-1">Ver condiciones</a>
+                    </div>
+                    <ul class="text-start beneficios miniatura">
+                        <li>Gimnasio</li>
+                        <li>Piscina</li>
+                        <li>Todos los tratamientos</li>
+                    </ul>
+                </div>
+                <div class="card-socio d-inline-block col-12 col-md-4 mx-2" id="card2">
+                    <div class="img-socio text-center px-3 py-5 rounded-circle bd-circle m-5">
+                        <img src="imgs/premium.png" alt="">
+                    </div>
+                    <h1 class="titulo-socio">Premium</h1>
+                    <div class="boton-condiciones bg-verde-claro p-2">
+                        <a href="#" class="text-decoration-none menu text-white p-1">Ver condiciones</a>
+                    </div>
+                    <ul class="text-start beneficios miniatura">
+                        <li>Gimnasio</li>
+                        <li>Todos los tratamientos</li>
+                    </ul>
+                </div>
+                <div class="card-socio d-inline-block col-12 col-md-4 mx-2" id="card3">
+                    <div class="img-socio text-center px-3 py-5 rounded-circle bd-circle m-5">
+                        <img src="imgs/plate.png" alt="">
+                    </div>
+                    <h1 class="titulo-socio">Plate</h1>
+                    <div class="boton-condiciones bg-verde-claro p-2">
+                        <a href="#" class="text-decoration-none menu text-white p-1">Ver condiciones</a>
+                    </div>
+                    <ul class="text-start beneficios miniatura">
+                        <li>Todos los tratamientos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row bg-verde-oscuro">
+            <nav class="col-8">
+                <ul class="mt-2">
+                    <li class="menu d-inline-block menu-cyf m-4 ml-3 tx-verde-claro">Politicas de cookies</li>
+                    <li class="menu d-inline-block menu-cyf m-4 ml-3 tx-verde-claro">Aviso legal</li>
+                    <li class="menu d-inline-block menu-cyf m-4 ml-3 tx-verde-claro">Protección de datos</li>
+                    <li class="menu d-inline-block menu-cyf m-4 ml-3 tx-verde-claro">mapa del sitio</li>
+                </ul>
+            </nav>
+            <div class="col-4 text-end mt-2">
+                <p class="d-inline-block tx-verde-claro menu m-4 ml-2">Síguenos en</p>
+                <div class="d-inline-block mb-4 m-3">
+                    <img src="imgs/rs_facebook.png" alt="" class="img-red-social">
+                </div>
+                <div class="d-inline-block mb-4 m-3">
+                    <img src="imgs/rs_twiter.png" alt="" class="img-red-social">
+                </div>
+                <div class="d-inline-block mb-4 m-3">
+                    <img src="imgs/rs_youtube.png" alt="" class="img-red-social">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

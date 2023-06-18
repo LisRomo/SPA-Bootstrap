@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Romanesco&display=swap');
+
+/* {
+    border: 1px solid red;
+}*/
+
+/* Tamaño de letra para pantallas de tamaño "md" y superiores */
+@media (min-width: 768px) {
+    #titulo-general {
+        font-size: 96px;
+        position: absolute;
+        top: 30%;
+    }
+}
+
+/* Tamaño de letra para pantallas más pequeñas que "md" */
+@media (max-width: 767px) {
+    #titulo-general {
+        font-size: 66px;
+        position: absolute;
+        top: 60%;
+    }
+}
+
+.T2-slogan {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+/* Tamaño de letra para pantallas de tamaño "md" y superiores */
+@media (min-width: 768px) {
+    .T2-slogan {
+        font-size: 32px;
+    }
+}
+
+/* Tamaño de letra para pantallas más pequeñas que "md" */
+@media (max-width: 767px) {
+    .T2-slogan {
+        font-size: 15px;
+        margin-top: 30%;
+    }
+}
+
+/* Fuente Romanesco, regular 96px */
+#titulo-general {
+    font-family: 'Romanesco', sans-serif;
+    font-weight: 400;
+    left: 150px;
+    width: auto;
+}
+
+/* Fuente Titulo 1 Inter, Bold, 48px */
+.T1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+/* Fuente Titulo 2 Inter, SemiBold, 32px */
+.T2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+/* Fuente Titulo 3 Inter, SemiBold, 28px */
+.T3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+/* Fuente miniatura Inter, regular, 14px */
+.miniatura {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* Fuente menu Inter, Regular, 16px, MAYUSCULAS */
+.menu {
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Fuente normal Inter, Regular, 16px */
+.normal {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Fuente placeholder Inter, Regular, 16px */
+#placeholder::placeholder {
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9E9A9A;
+}
+
+.bg-verde-claro {
+    background-color: #A3A656;
+}
+
+.tx-verde-claro {
+    color: #A3A656;
+}
+
+.bg-verde-oscuro {
+    background-color: #384001;
+}
+
+.bg-gris {
+    background-color: #F2F6F6;
+}
+
+.cabecera{
+    height: 70px;
+}
+
+.menu-cyf:hover{
+    color: #FFFF00
+}
+
+#slogan1 {
+    position: absolute;
+    top: 50%;
+    left: 150px;
+}
+
+#slogan2 {
+    position: absolute;
+    top: 60%;
+    left: 150px;
+}
+
+#menu-cod{
+    height: 100px;
+}
+
+.cod{
+    box-shadow: none;
+}
+
+.card-masajes{
+    width: 330px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.titulo-masaje{
+    border-radius: 15px 15px 0px 0px;
+}
+
+#masajes{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.img-masaje{
+    width: 100%;
+    height: auto;
+}
+
+.boton-reseva{
+    border-radius: 35px;
+}
+
+.boton-reseva:hover{
+    background-color: #384001;
+}
+
+#socios{
+    height: 770px;
+}
+
+.card-socio{
+    width: 330px;
+}
+
+#card2 {
+    position: relative;
+    top: -22px;
+}
+
+#card3 {
+    position: relative;
+    top: -43px;
+}
+
+.img-socio{
+    height: 233px;
+    width: 233px;
+}
+
+.titulo-socio{
+    height:50px;
+}
+
+.boton-condiciones{
+    height: 40px;
+    border-radius: 35px;
+}
+
+.boton-condiciones:hover{
+    background-color: #384001;
+}
+
+.beneficios{
+    height: 90px;
+}
+
+.bd-circle{
+    border: 10px solid #384001;
+}
+
+.pie{
+    height: 97px;
+}
+
+.img-red-social{
+    height: 40px;
+    width: auto;
+}
